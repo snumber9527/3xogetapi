@@ -95,13 +95,13 @@ shop:
         - { title: "海外流媒体",content: "网飞,迪士尼等流媒体",support: true }
 
     - id: 7
-      name: "1024G流量包（不限时间！不限速度！用完截止！）"
+      name: "1000G流量包（不限时间！不限速度！用完截止！）"
       price: "¥169.90"
       type: "onetime_price"
       recommend: false
       desc:
         - { title: "支持设备",content: "安卓 苹果 电脑",support: true }
-        - { title: "流量明细",content: "330G 流量",support: true }
+        - { title: "流量明细",content: "1000G 流量",support: true }
         - { title: "多设备使用",content: "无限制",support: true }
         - { title: "网络速度",content: "无限制",support: true }
         - { title: "加密安全",content: "全节点中转加密传输 隐私安全保障",support: true }
