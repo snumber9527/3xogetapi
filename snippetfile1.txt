@@ -1,0 +1,169 @@
+# 本配置文件仅适用于 [萌通加速]1.2.0 以上版本，
+# 注意：修改内容请严格遵守 yaml 格式，特别是缩进和空格，否则 app 可能会报错
+# 授权密钥（月付版必填）
+license: "Oe1xFAINaXiSNFLVpI454Aordv8r+kqpviMid6L+J2+wZTxpZOb1AtQeYzLceCqMkGy7glYpOf2hG+4xASC3qA=="
+
+# app与v2b面板的通信地址，一般是面板前端域名，若月付版更换域名请联系作者重新获取授权密钥
+apiUrl: "https://xoxoxo.lol"
+
+# Crisp在线客服，不填写则入口隐藏
+crispId: ""
+
+# 用户协议及隐私政策
+agreements:
+  # 是否显示（总开关：[第一次进入app、登录、注册、其他设置-关于]的显示）
+  show: false
+  # 第一次进入 app 的弹窗标题
+  title: ""
+  # 第一次进入 app 的弹窗内容，支持文字a标签跳转
+  content: ""
+  # 服务协议url
+  service_link: ""
+  # 隐私政策url
+  privacy_link: ""
+
+# 每次进入app时的弹窗，支持多弹窗队列弹出
+notice_list:
+  - show: true  # 开关
+    title: "欢迎使用3xo加速器！"
+    content: "<a href='https://xoxoxo.lol'>3xo加速器官网</a><br><a href='https://faka3.xoxoxo.lol'>海外账号免费领取！！！</a><br>永远不会收集用户使用数据，双端加密保证用户隐私"
+    negative: ""  # 左边按钮文字，不填则隐藏
+    position: ""  # 右边按钮文字，不填则隐藏.
+    position_link: ""  # 右边按钮跳转地址，不填则不进行跳转
+
+    # 示例
+  - show: false
+    title: "这是第二个弹窗"
+    content: "这里是弹窗内容"
+    negative: ""
+    position: ""
+    position_link: ""
+
+# 购买套餐下单时的弹窗
+buyTip:
+  show: false
+  title: "购买须知"
+  content: "无退款服务，是否确认购买？"
+
+# 商店页面的配置
+shop:
+  title: "购买订阅"
+  desc: "选择最适合您的计划"
+  list:
+    - id: 2  # 对应的套餐id字段
+      name: "VIP|循环续费|初级"  # 套餐名称
+      price: "¥9.90"  # 套餐价格，这里需要把货币单位加上
+      type: "month_price"  # 付款周期类型：[月付：month_price，季付：quarter_price，半年付：half_year_price，年付：year_price，两年付：two_year_price，三年付：three_year_price，一次性：onetime_price]
+      recommend: true  # 是否在右上角显示推荐图标
+      desc:  # 套餐详情，以下列表数量不限可以无限添加，但请注意格式
+        # title:小标题，content：内容，support：✔︎ or ✖︎
+        - { title: "支持设备",content: "安卓 苹果 电脑",support: true }
+        - { title: "流量明细",content: "110G 流量",support: true }
+        - { title: "多设备使用",content: "无限制",support: true }
+        - { title: "网络速度",content: "100 Mbps",support: true }
+        - { title: "加密安全",content: "全节点中转加密传输 隐私安全保障",support: true }
+        - { title: "海外流媒体",content: "网飞,迪士尼等流媒体",support: true }
+
+
+    - id: 3  # 对应v2b的套餐id字段
+      name: "VIP|循环续费|中级"  # 套餐名称
+      price: "¥19.00"  # 套餐价格，这里需要把货币单位加上
+      type: "month_price"  # 付款周期类型：[月付：month_price，季付：quarter_price，半年付：half_year_price，年付：year_price，两年付：two_year_price，三年付：three_year_price，一次性：onetime_price]
+      recommend: false  # 是否在右上角显示推荐图标
+      desc:  # 套餐详情，以下列表数量不限可以无限添加，但请注意格式
+        # title:小标题，content：内容，support：✔︎ or ✖︎
+        - { title: "支持设备",content: "安卓 苹果 电脑",support: true }
+        - { title: "流量明细",content: "220G 流量",support: true }
+        - { title: "多设备使用",content: "无限制",support: true }
+        - { title: "网络速度",content: "200 Mbps",support: true }
+        - { title: "加密安全",content: "全节点中转加密传输 隐私安全保障",support: true }
+        - { title: "海外流媒体",content: "网飞,迪士尼等流媒体",support: true }
+
+
+    - id: 4  # 对应v2b的套餐id字段
+      name: "VIP|循环续费|中级"  # 套餐名称
+      price: "¥28.00"  # 套餐价格，这里需要把货币单位加上
+      type: "month_price"  # 付款周期类型：[月付：month_price，季付：quarter_price，半年付：half_year_price，年付：year_price，两年付：two_year_price，三年付：three_year_price，一次性：onetime_price]
+      recommend: false  # 是否在右上角显示推荐图标
+      desc:  # 套餐详情，以下列表数量不限可以无限添加，但请注意格式
+        # title:小标题，content：内容，support：✔︎ or ✖︎
+        - { title: "支持设备",content: "安卓 苹果 电脑",support: true }
+        - { title: "流量明细",content: "330G 流量",support: true }
+        - { title: "多设备使用",content: "无限制",support: true }
+        - { title: "网络速度",content: "300 Mbps",support: true }
+        - { title: "加密安全",content: "全节点中转加密传输 隐私安全保障",support: true }
+        - { title: "海外流媒体",content: "网飞,迪士尼等流媒体",support: true }
+
+    - id: 7
+      name: "1024G流量包（不限时间！不限速度！用完截止！）"
+      price: "¥169.90"
+      type: "onetime_price"
+      recommend: false
+      desc:
+        - { title: "支持设备",content: "安卓 苹果 电脑",support: true }
+        - { title: "流量明细",content: "330G 流量",support: true }
+        - { title: "多设备使用",content: "无限制",support: true }
+        - { title: "网络速度",content: "无限制",support: true }
+        - { title: "加密安全",content: "全节点中转加密传输 隐私安全保障",support: true }
+        - { title: "海外流媒体",content: "网飞,迪士尼等流媒体",support: true }
+# 首页网站推荐
+homeNav:
+  show: true  # 是否显示
+  title: "网站推荐"  # 标题
+  list: #以下列表数量不限可以无限添加，但请注意格式
+    - text: "加速器官网"
+      icon: "https://feinu444488880001.xyz/tuku/feinuyun.png"
+      link: "https://xoxoxo.lol"
+      need_connected: false # 是否在连接状态下才能跳转
+    - text: "安卓海外应用商城"
+      icon: "https://feinu444488880001.xyz/tuku/2.png"
+      link: "https://apkcombo.com"
+      need_connected: false # 是否在连接状态下才能跳转
+    - text: "色站合集"
+      icon: "https://cdnjson.com/images/2023/07/11/depositphotos_68110071-stock-illustration-18-age-restriction-sign.webp"
+      link: "https://theporndude.com/zh"
+      need_connected: false
+    - text: "Google"
+      icon: "https://i3.mjj.rip/2023/07/10/46daf515c691dffc8be5389efa01b215.webp"
+      link: "https://www.google.com"
+      need_connected: false
+    - text: "Telegram"
+      icon: "https://simg.doyo.cn/imgfile/bgame/202303/08094239yadd.jpg"
+      link: "https://t.me/moetors"
+      need_connected: false
+    - text: "ChatGPT"
+      icon: "https://cdnjson.com/images/2023/07/11/ChatGPT_logo.svg.png"
+      link: "https://openai.com"
+      need_connected: false
+    - text: "Facebook"
+      icon: "https://simg.doyo.cn/imgfile/bgame/202303/07161609vgut.jpg"
+      link: "https://www.facebook.com"
+      need_connected: false
+    - text: "Twitter"
+      icon: "https://simg.doyo.cn/imgfile/bgame/202306/251147191iac.png"
+      link: "https://www.twitter.com"
+      need_connected: false
+    - text: "Instagram"
+      icon: "https://simg.doyo.cn/imgfile/bgame/202303/07154226kh8v.jpg"
+      link: "https://www.instagram.com"
+      need_connected: false
+    - text: "Spotify"
+      icon: "https://i3.mjj.rip/2023/07/10/c0e2fa09778c0a0864966f4ad16f5f7d.webp"
+      link: "https://www.spotify.com"
+      need_connected: false
+    - text: "YouTube"
+      icon: "https://simg.doyo.cn/imgfile/bgame/202303/04165047scdv.jpg"
+      link: "https://www.youtube.com"
+      need_connected: false
+    - text: "Netflix"
+      icon: "https://cdnjson.com/images/2023/07/11/e07a41e8afc91b3ff66ddd02e6b8378e786034721acfa948e43de85449c7971b_200.png"
+      link: "https://www.netflix.com"
+      need_connected: false
+    - text: "Disney+"
+      icon: "https://cdnjson.com/images/2023/07/11/eb7202d9c9bfbc97c6f1e644dce1f58f9fbcf193ae9edff9bdda2c088cdbabf0_200.png"
+      link: "https://www.disneyplus.com"
+      need_connected: false
+    - text: "泥视频"
+      icon: "https://cdnjson.com/images/2023/07/11/icon.webp"
+      link: "https://www.nivod4.tv/?utm_source=JadeDuck"
+      need_connected: false
