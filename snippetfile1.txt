@@ -4,7 +4,7 @@
 license: "Oe1xFAINaXiSNFLVpI454Aordv8r+kqpviMid6L+J2+wZTxpZOb1AtQeYzLceCqMkGy7glYpOf2hG+4xASC3qA=="
 
 # app与v2b面板的通信地址，一般是面板前端域名，若月付版更换域名请联系作者重新获取授权密钥
-apiUrl: "https://xoxoxo.lol"
+apiUrl: "https://3.xoxoxo.lol"
 
 # Crisp在线客服，不填写则入口隐藏
 crispId: ""
@@ -26,10 +26,10 @@ agreements:
 notice_list:
   - show: true  # 开关
     title: "欢迎使用3xo加速器！"
-    content: "<a href='https://xoxoxo.lol'>3xo加速器官网</a><br><a href='https://faka3.xoxoxo.lol'>海外账号免费领取！！！</a><br>永远不会收集用户使用数据，双端加密保证用户隐私"
+    content: "3xo加速器-永远不会收集用户使用数据，双端加密保证用户隐私"
     negative: ""  # 左边按钮文字，不填则隐藏
-    position: ""  # 右边按钮文字，不填则隐藏.
-    position_link: ""  # 右边按钮跳转地址，不填则不进行跳转
+    position: "官网"  # 右边按钮文字，不填则隐藏.
+    position_link: "xoxoxo.lol"  # 右边按钮跳转地址，不填则不进行跳转
 
     # 示例
   - show: false
@@ -112,7 +112,7 @@ homeNav:
   title: "网站推荐"  # 标题
   list: #以下列表数量不限可以无限添加，但请注意格式
     - text: "加速器官网"
-      icon: "https://feinu444488880001.xyz/tuku/feinuyun.png"
+      icon: "https://cdnjson.com/images/2024/03/11/61d3c6b873e4f505353da6606baf03003cf67c01285166b3.th.png"
       link: "https://xoxoxo.lol"
       need_connected: false # 是否在连接状态下才能跳转
     - text: "安卓海外应用商城"
