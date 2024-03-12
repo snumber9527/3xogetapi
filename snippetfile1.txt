@@ -50,7 +50,7 @@ shop:
   title: "购买订阅"
   desc: "选择最适合您的计划"
   list:
-    - id: 2  # 对应的套餐id字段
+    - id: 1  # 对应的套餐id字段
       name: "VIP|循环续费|初级"  # 套餐名称
       price: "¥9.90"  # 套餐价格，这里需要把货币单位加上
       type: "month_price"  # 付款周期类型：[月付：month_price，季付：quarter_price，半年付：half_year_price，年付：year_price，两年付：two_year_price，三年付：three_year_price，一次性：onetime_price]
@@ -94,7 +94,7 @@ shop:
         - { title: "加密安全",content: "全节点中转加密传输 隐私安全保障",support: true }
         - { title: "海外流媒体",content: "网飞,迪士尼等流媒体",support: true }
 
-    - id: 7
+    - id: 6
       name: "1000G流量包（不限时间！不限速度！用完截止！）"
       price: "¥169.90"
       type: "onetime_price"
