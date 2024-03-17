@@ -28,7 +28,7 @@ notice_list:
     title: "欢迎使用3xo加速器！"
     content: "3xo加速器-永远不会收集用户使用数据，双端加密保证用户隐私"
     negative: ""  # 左边按钮文字，不填则隐藏
-    position: "官网"  # 右边按钮文字，不填则隐藏.
+    position: ""  # 右边按钮文字，不填则隐藏.
     position_link: ""  # 右边按钮跳转地址，不填则不进行跳转
 
     # 示例
