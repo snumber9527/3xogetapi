@@ -4,7 +4,7 @@
 license: "Oe1xFAINaXiSNFLVpI454Aordv8r+kqpviMid6L+J2+wZTxpZOb1AtQeYzLceCqMkGy7glYpOf2hG+4xASC3qA=="
 
 # app与v2b面板的通信地址，一般是面板前端域名，若月付版更换域名请联系作者重新获取授权密钥
-apiUrl: "https://3.xoxoxo.lol"
+apiUrl: "https://xoxoxo.lol"
 
 # Crisp在线客服，不填写则入口隐藏
 crispId: ""
