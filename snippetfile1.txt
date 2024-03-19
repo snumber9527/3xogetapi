@@ -26,7 +26,7 @@ agreements:
 notice_list:
   - show: true  # 开关
     title: "欢迎使用3xo加速器！"
-    content: "3xo加速器-永远不会收集用户使用数据，双端加密保证用户隐私"
+    content: "3xo加速器-双端加密保证用户隐私,网络不是非法之地，请谨慎言行"
     negative: ""  # 左边按钮文字，不填则隐藏
     position: ""  # 右边按钮文字，不填则隐藏.
     position_link: ""  # 右边按钮跳转地址，不填则不进行跳转
