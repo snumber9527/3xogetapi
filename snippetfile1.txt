@@ -115,7 +115,7 @@ homeNav:
       icon: "https://cdnjson.com/images/2024/03/11/61d3c6b873e4f505353da6606baf03003cf67c01285166b3.th.png"
       link: "https://xoxoxo.lol"
       need_connected: false # 是否在连接状态下才能跳转
-    - text: "安卓海外应用商城"
+    - text: "海外应用商城"
       icon: "https://feinu444488880001.xyz/tuku/2.png"
       link: "https://apkcombo.com"
       need_connected: false # 是否在连接状态下才能跳转
@@ -126,6 +126,10 @@ homeNav:
     - text: "Google"
       icon: "https://i3.mjj.rip/2023/07/10/46daf515c691dffc8be5389efa01b215.webp"
       link: "https://www.google.com"
+      need_connected: false
+    - text: "YouTube"
+      icon: "https://simg.doyo.cn/imgfile/bgame/202303/04165047scdv.jpg"
+      link: "https://www.youtube.com"
       need_connected: false
     - text: "Telegram"
       icon: "https://simg.doyo.cn/imgfile/bgame/202303/08094239yadd.jpg"
@@ -150,10 +154,6 @@ homeNav:
     - text: "Spotify"
       icon: "https://i3.mjj.rip/2023/07/10/c0e2fa09778c0a0864966f4ad16f5f7d.webp"
       link: "https://www.spotify.com"
-      need_connected: false
-    - text: "YouTube"
-      icon: "https://simg.doyo.cn/imgfile/bgame/202303/04165047scdv.jpg"
-      link: "https://www.youtube.com"
       need_connected: false
     - text: "Netflix"
       icon: "https://cdnjson.com/images/2023/07/11/e07a41e8afc91b3ff66ddd02e6b8378e786034721acfa948e43de85449c7971b_200.png"
